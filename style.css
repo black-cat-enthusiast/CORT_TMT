@@ -1,0 +1,140 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+/* --- BODY & FONT --- */
+body {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  background-color: #fffde7;
+}
+
+/* --- HEADERS --- */
+h1, h2, h3, h4 {
+  font-family: "Segoe UI Semibold", "Helvetica Neue", Arial, sans-serif;
+  color: #1a1a1a;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 0.2em;
+}
+
+h1 {
+  font-size: 2em;
+  border-bottom: 2px solid #cccccc;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.3em;
+  border-bottom: none;
+  color: #2d2d2d;
+}
+
+/* --- LINKS --- */
+.book .book-summary a {
+  color: #444; 
+}
+
+.book .book-summary a:hover {
+  color: #db3a34 !important; 
+}
+
+.book .book-summary ul.summary li.active > a {
+  color: #db3a34 !important;
+  font-weight: bold;         
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* --- SIDEBAR TOC --- */
+.book .book-summary {
+  background-color: #f7f7f7;
+  border-right: 1px solid #e0e0e0;
+}
+
+.book .book-summary a {
+  color: #444;
+  font-size: 15px;
+}
+
+.book .book-summary a:hover {
+  color: #db3a34;
+}
+
+/* --- CODE BLOCKS --- */
+pre, code {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  font-family: "Courier New", monospace;
+}
+
+pre {
+  padding: 1em;
+  overflow-x: auto;
+  border: 1px solid #dddddd;
+}
+
+code {
+  padding: 2px 4px;
+}
+
+/* --- TABLES --- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+table th, table td {
+  border: 1px solid #cccccc;
+  padding: 0.6em;
+  text-align: left;
+}
+
+table th {
+  background-color: #eeeeee;
+}
+
+/* --- FIGURES --- */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+}
+
+/* --- MISC --- */
+blockquote {
+  font-style: italic;
+  border-left: 4px solid #cccccc;
+  padding-left: 1em;
+  color: #666666;
+  background: #f9f9f9;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #cccccc;
+  margin: 2em 0;
+}
